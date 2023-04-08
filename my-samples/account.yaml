@@ -1,0 +1,9 @@
+apiVersion: tenancy.kiosk.sh/v1alpha1
+kind: Account
+metadata:
+  name: masoud
+spec:
+  subjects:
+  - kind: User
+    name: masoud
+    apiGroup: rbac.authorization.k8s.io
